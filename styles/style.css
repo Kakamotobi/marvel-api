@@ -96,3 +96,55 @@ nav {
 	width: inherit;
 	height: inherit;
 }
+
+/* -----Main Content----- */
+
+main {
+	width: 100%;
+	max-width: 1200px;
+	margin-inline: auto;
+	padding-top: 20px;
+	padding-inline: 20px;
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid blue; */
+}
+
+.hero-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero__top-wrapper {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.hero__thumbnail-container {
+	width: 180px;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero__thumbnail-img {
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+}
+
+.hero__basic {
+	width: auto;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.hero__name {
+	margin-bottom: 10px;
+	font-family: "marvelregular", "sans-serif";
+	font-size: 10vw;
+	letter-spacing: 2px;
+	line-height: 1.05;
+	text-transform: uppercase;
+}
