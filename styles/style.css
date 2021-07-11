@@ -1,0 +1,21 @@
+:root {
+	--marvelRed: #ed1d24;
+	--white: #fff;
+	--dark: #202020;
+	--grey: #807f7f;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+}
