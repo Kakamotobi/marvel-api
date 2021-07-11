@@ -148,3 +148,32 @@ main {
 	line-height: 1.05;
 	text-transform: uppercase;
 }
+
+/* -----Wide Screen----- */
+@media screen and (min-width: 768px) {
+	.nav-wrapper {
+		padding-inline: 50px;
+	}
+	.title {
+		padding-inline: 20px;
+		border-left: 1px solid var(--grey);
+		border-right: 1px solid var(--grey);
+	}
+	#search-form {
+		padding-left: 20px;
+		padding-right: 40px;
+		border-left: 1px solid var(--grey);
+		border-right: 1px solid var(--grey);
+	}
+
+	#search-input {
+		width: 150px;
+	}
+	#search-btn {
+		top: 15px;
+		right: 20px;
+	}
+	main {
+		padding-inline: 50px;
+	}
+}
