@@ -107,13 +107,13 @@ nav {
 main {
 	width: 100%;
 	/* max-width: 1200px; */
-	margin-inline: auto;
-	padding-top: 20px;
 	display: flex;
 	flex-direction: column;
 }
 
 .hero-container {
+	width: 100%;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	padding-inline: 30px;
 	display: flex;
@@ -200,11 +200,13 @@ main {
 	.nav-wrapper {
 		padding-inline: 50px;
 	}
+
 	.title {
 		padding-inline: 20px;
 		border-left: 1px solid var(--grey);
 		border-right: 1px solid var(--grey);
 	}
+
 	#search-form {
 		padding-left: 20px;
 		padding-right: 40px;
@@ -215,8 +217,25 @@ main {
 	#search-input {
 		width: 150px;
 	}
+
 	#search-btn {
 		top: 15px;
 		right: 20px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.hero-container {
+		flex-direction: row;
+		padding-inline: 200px;
+	}
+
+	.hero__thumbnail-container {
+		margin-right: 30px;
+		margin-bottom: 0;
+	}
+
+	.hero__bio {
+		align-items: flex-start;
 	}
 }
