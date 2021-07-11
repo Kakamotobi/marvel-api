@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Fonts -->
+		<link rel="stylesheet" href="styles/marvel-typography/stylesheet.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="styles/style.css" />
+		<title>Marvel Heroes</title>
+	</head>
+	<body>
+		<nav>
+			<div class="nav-wrapper">
+				<div class="title"><a href="#">My Page</a></div>
+
+				<img
+					class="logo"
+					src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg"
+					alt="Marvel Logo"
+				/>
+
+				<form action="/" id="search-form">
+					<input type="text" placeholder="SEARCH" id="search-input" />
+					<button id="search-btn" type="submit">
+						<img src="styles/magnifying-glass.svg" alt="Search Button" />
+					</button>
+				</form>
+			</div>
+		</nav>
+
+		<main>
+			<div class="hero-container"></div>
+
+			<div class="comics-container"></div>
+		</main>
+
+		<script src="app.js"></script>
+	</body>
+</html>
