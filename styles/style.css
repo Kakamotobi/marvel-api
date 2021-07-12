@@ -238,4 +238,18 @@ main {
 	.hero__bio {
 		align-items: flex-start;
 	}
+
+	.comic {
+		width: 200px;
+	}
+
+	.comic__thumbnail {
+		width: 200px;
+		height: 250px;
+	}
+
+	.comic__title {
+		width: 100%;
+		color: var(--white);
+	}
 }
