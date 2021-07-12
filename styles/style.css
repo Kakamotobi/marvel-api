@@ -106,7 +106,6 @@ nav {
 
 main {
 	width: 100%;
-	/* max-width: 1200px; */
 	display: flex;
 	flex-direction: column;
 }
@@ -171,8 +170,19 @@ main {
 	width: 100%;
 	padding: 30px;
 	display: flex;
+	flex-direction: column;
+
+}
+
+.comics-container__title {
+	margin-bottom: 20px;
+	color: var(--white);
+}
+
+.comics-wrapper {
+	width: 100%;
+	display: flex;
 	justify-content: space-between;
-	background-color: var(--dark);
 	overflow: scroll;
 }
 
@@ -225,9 +235,14 @@ main {
 }
 
 @media screen and (min-width: 1000px) {
+	main {
+		align-items: center;
+	}
 	.hero-container {
+		max-width: 800px;
+		min-height: 30vh;
+		padding-inline: 0;
 		flex-direction: row;
-		padding-inline: 200px;
 	}
 
 	.hero__thumbnail-container {
@@ -237,6 +252,7 @@ main {
 
 	.hero__bio {
 		align-items: flex-start;
+		justify-content: flex-start;
 	}
 
 	.comic {
